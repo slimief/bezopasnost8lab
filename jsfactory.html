@@ -18,15 +18,15 @@ var c = parseFloat(prompt("c"));
 if(a < c && b < c){
     switch(znak){
         case "+":
-        document.write((a + b)/c);
+        document.write((a + b)%c);
         break;
         
         case "*":
-        document.write((a * b)/c);
+        document.write((a * b)%c);
         break;
         
         case "**":
-        document.write((a * b)/c);
+        document.write((a * b)%c);
 
         default:
         alert("none");
