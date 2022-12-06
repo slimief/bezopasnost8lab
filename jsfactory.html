@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style type="text/css">
+
+</style>
+</head>
+<script>
+
+var znak = prompt("Введите знак");
+
+var a = parseFloat(prompt("a"));
+var b = parseFloat(prompt("b"));
+var c = parseFloat(prompt("c"));
+if(a < c && b < c){
+    switch(znak){
+        case "+":
+        document.write((a + b)/c);
+        break;
+        
+        case "*":
+        document.write((a * b)/c);
+        break;
+        
+        case "**":
+        document.write((a * b)/c);
+
+        default:
+        alert("none");
+        break;
+    }
+}
+else
+document.write("error");
+</script>
+<body>
+</body>
+</html>
